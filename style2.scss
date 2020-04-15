@@ -1,0 +1,16 @@
+table {
+    width: 75%;
+    font-size: 12pt;
+    $font-stack:    Helvetica, sans-serif;
+}
+table, th, td {
+    border: 2px solid #cecece ;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+   background-color: rgb(216, 110, 154);
+   font-weight: bold;
+   $primary-color: white;
+}  
